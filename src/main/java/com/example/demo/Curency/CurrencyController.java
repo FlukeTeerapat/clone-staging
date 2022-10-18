@@ -21,4 +21,8 @@ public class CurrencyController {  private final CurrencyService currencyService
         return currencyService.getCurrency();
 
     }
+    @GetMapping(value = "/")
+    public String home(){
+        return "Home";
+    }
 }
