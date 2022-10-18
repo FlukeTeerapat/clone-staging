@@ -31,4 +31,5 @@ public class CurrencyController {  private final CurrencyService currencyService
     public String home(){
         return "Home";
     }
+    //currency controller
 }
